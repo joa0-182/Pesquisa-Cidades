@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2022/08/23 19:21:19.512,=C:\Users\etec\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/08/23 19:33:07.539,C:\Users\etec\Desktop\Pesquisa Cidade\untCidade.dfm=C:\Users\etec\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/08/23 19:33:07.539,C:\Users\etec\Desktop\Pesquisa Cidade\untCidade.pas=C:\Users\etec\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/08/23 19:33:45.250,C:\Users\etec\Desktop\Pesquisa Cidade\prjCidade.dproj=C:\Users\etec\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/08/23 19:41:12.001,=C:\Users\etec\Desktop\Pesquisa Cidade\Unit1.pas</Transaction>
+    <Transaction>2022/08/23 19:42:55.901,C:\Users\etec\Desktop\Pesquisa Cidade\untModulo.dfm=C:\Users\etec\Desktop\Pesquisa Cidade\Unit1.dfm</Transaction>
+    <Transaction>2022/08/23 19:42:55.901,C:\Users\etec\Desktop\Pesquisa Cidade\untModulo.pas=C:\Users\etec\Desktop\Pesquisa Cidade\Unit1.pas</Transaction>
+    <Transaction>2022/08/23 20:22:23.931,C:\Users\etec\Desktop\Pesquisa Cidade\untpPesqCidade.dfm=C:\Users\etec\Desktop\Pesquisa Cidade\untCidade.dfm</Transaction>
+    <Transaction>2022/08/23 20:22:23.931,C:\Users\etec\Desktop\Pesquisa Cidade\untpPesqCidade.pas=C:\Users\etec\Desktop\Pesquisa Cidade\untCidade.pas</Transaction>
+  </Transactions>
+</BorlandProject>
