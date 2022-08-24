@@ -1,0 +1,81 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  Height = 150
+  Width = 543
+  object conexao: TFDConnection
+    Params.Strings = (
+      'Database=cidades_brasil'
+      'User_Name=root'
+      'DriverID=MySQL')
+    Connected = True
+    LoginPrompt = False
+    Left = 32
+    Top = 16
+  end
+  object FDGUIxWaitCursor1: TFDGUIxWaitCursor
+    Provider = 'Forms'
+    Left = 136
+    Top = 16
+  end
+  object FDPhysMySQLDriverLink1: TFDPhysMySQLDriverLink
+    VendorLib = 
+      'C:\Users\Jo'#227'o Pedro\Documents\GitHub\Pesquisa-Cidades\libmysql.d' +
+      'll'
+    Left = 272
+    Top = 16
+  end
+  object qryEstado: TFDQuery
+    Active = True
+    Connection = conexao
+    SQL.Strings = (
+      'SELECT * FROM ESTADO')
+    Left = 32
+    Top = 80
+    object qryEstadoCODIGO_ESTADO: TIntegerField
+      FieldName = 'CODIGO_ESTADO'
+      Origin = 'CODIGO_ESTADO'
+      ProviderFlags = [pfInUpdate, pfInWhere, pfInKey]
+      Required = True
+    end
+    object qryEstadoSIGLA: TStringField
+      AutoGenerateValue = arDefault
+      FieldName = 'SIGLA'
+      Origin = 'SIGLA'
+      FixedChar = True
+      Size = 2
+    end
+    object qryEstadoNOME: TStringField
+      AutoGenerateValue = arDefault
+      FieldName = 'NOME'
+      Origin = 'NOME'
+      FixedChar = True
+      Size = 50
+    end
+  end
+  object qryCidade: TFDQuery
+    Active = True
+    Connection = conexao
+    SQL.Strings = (
+      'SELECT * FROM CIDADE')
+    Left = 136
+    Top = 80
+    object qryCidadeCODIGO_CIDADE: TIntegerField
+      FieldName = 'CODIGO_CIDADE'
+      Origin = 'CODIGO_CIDADE'
+      ProviderFlags = [pfInUpdate, pfInWhere, pfInKey]
+      Required = True
+    end
+    object qryCidadeNOME: TStringField
+      AutoGenerateValue = arDefault
+      FieldName = 'NOME'
+      Origin = 'NOME'
+      FixedChar = True
+      Size = 100
+    end
+    object qryCidadeCODIGO_ESTADO: TIntegerField
+      FieldName = 'CODIGO_ESTADO'
+      Origin = 'CODIGO_ESTADO'
+      Required = True
+    end
+  end
+end
